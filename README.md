@@ -63,7 +63,46 @@ dodo generate-metadata --project my_robot_dataset
 dodo export ./output_dataset --project my_robot_dataset
 ```
 
-## 📖 Documentation
+## �️ CLI in Action
+
+### Welcome Screen
+The DODO CLI features a beautiful animated welcome screen with comprehensive command listings:
+
+![DODO CLI Welcome Screen](https://github.com/bathri06vishal/dodo-cli-/raw/main/screenshots/dodo-welcome.png)
+
+### Project Management
+Easily list and manage your robotics datasets:
+
+```bash
+$ dodo list
+Found 5 DODO project(s):
+
+📁 test_robot_dataset
+   Path: /home/user/test_dodo/test_robot_dataset
+   Task: navigation
+   Version: 0.1.0
+
+📁 tmp_dataset2
+   Path: /home/user/test_dodo/tmp_dataset2
+   Task: inspection
+   Version: 0.1.0
+```
+
+### Quick Commands Reference
+All commands are accessible from the welcome screen:
+- `init` - Create new project
+- `list` - List all projects  
+- `delete` - Delete project
+- `register` - Create user account
+- `login` - Login to DODO
+- `import` - Import robot logs
+- `generate-metadata` - Create aligned frames
+- `filter` - Remove duplicates
+- `validate` - Validate dataset
+- `export` - Export dataset
+- `logout` - Logout from session
+
+## �📖 Documentation
 
 ### Project Structure
 
