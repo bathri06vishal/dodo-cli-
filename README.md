@@ -68,7 +68,7 @@ dodo export ./output_dataset --project my_robot_dataset
 ### Welcome Screen
 The DODO CLI features a beautiful animated welcome screen with comprehensive command listings:
 
-![DODO CLI Demo](https://github.com/bathri06vishal/dodo-cli-/raw/main/screenshots/dodo-cli-demo.svg)
+![DODO CLI Demo](https://github.com/bathri06vishal/dodo-cli-/raw/main/screenshots/dodo-welcome.png)
 
 ### Project Management
 Easily list and manage your robotics datasets:
