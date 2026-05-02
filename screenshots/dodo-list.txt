@@ -1,0 +1,15 @@
+DODO CLI Project List
+====================
+
+$ dodo list
+Found 5 DODO project(s):
+
+📁 test_robot_dataset
+   Path: /home/user/test_dodo/test_robot_dataset
+   Task: navigation
+   Version: 0.1.0
+
+📁 tmp_dataset2
+   Path: /home/user/test_dodo/tmp_dataset2
+   Task: inspection
+   Version: 0.1.0
