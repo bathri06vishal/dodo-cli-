@@ -1,0 +1,30 @@
+[
+  {
+    "name": "camera_front_image",
+    "modality": "camera",
+    "topic": "/camera/front/image",
+    "frequency_hz": 1.0,
+    "message_count": 2
+  },
+  {
+    "name": "cmd_vel",
+    "modality": "action",
+    "topic": "/cmd_vel",
+    "frequency_hz": 1.0,
+    "message_count": 2
+  },
+  {
+    "name": "imu",
+    "modality": "imu",
+    "topic": "/imu",
+    "frequency_hz": 1.0,
+    "message_count": 2
+  },
+  {
+    "name": "lidar_points",
+    "modality": "lidar",
+    "topic": "/lidar/points",
+    "frequency_hz": 1.0,
+    "message_count": 2
+  }
+]

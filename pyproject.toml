@@ -1,0 +1,63 @@
+[build-system]
+requires = ["setuptools>=65", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dodo-robotics"
+version = "1.0.0"
+description = "DODO CLI - Transform raw robotics logs into structured, ML-ready multimodal datasets."
+readme = "README.md"
+license = {text = "MIT"}
+authors = [
+    {name = "Dodo Robotics", email = "team@dodo-robotics.com"}
+]
+maintainers = [
+    {name = "Dodo Robotics", email = "team@dodo-robotics.com"}
+]
+keywords = ["robotics", "machine-learning", "dataset", "multimodal", "ros", "computer-vision"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+requires-python = ">=3.10"
+dependencies = [
+    "typer>=0.12.0",
+    "pydantic>=2.6.0",
+    "questionary>=1.10.0",
+]
+
+[project.optional-dependencies]
+ros = [
+    "rosbags>=0.10.0",
+]
+dev = [
+    "pytest>=8.0.0",
+    "black>=23.0.0",
+    "flake8>=6.0.0",
+    "mypy>=1.0.0",
+]
+
+[project.urls]
+Homepage = "https://dodo-robotics.com"
+Documentation = "https://github.com/dodo-robotics/Dodo_CLI.V1.0#readme"
+Repository = "https://github.com/dodo-robotics/Dodo_CLI.V1.0"
+Issues = "https://github.com/dodo-robotics/Dodo_CLI.V1.0/issues"
+
+[project.scripts]
+dodo = "dodo.cli:app"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-dir]
+"" = "src"
+

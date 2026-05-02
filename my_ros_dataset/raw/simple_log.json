@@ -1,0 +1,9 @@
+[
+  {"timestamp": 0.0, "topic": "/rosout", "payload": {"level": "info", "msg": "Robot started", "frame_id": "base_link"}},
+  {"timestamp": 0.1, "topic": "/camera/image", "payload": {"frame": 1, "width": 640, "height": 480, "encoding": "rgb8"}},
+  {"timestamp": 0.1, "topic": "/imu", "payload": {"linear_acceleration": [0.0, 0.0, 9.8], "angular_velocity": [0.0, 0.0, 0.0]}},
+  {"timestamp": 0.1, "topic": "/cmd_vel", "payload": {"linear": [0.1, 0.0, 0.0], "angular": [0.0, 0.0, 0.0]}},
+  {"timestamp": 0.2, "topic": "/camera/image", "payload": {"frame": 2, "width": 640, "height": 480, "encoding": "rgb8"}},
+  {"timestamp": 0.2, "topic": "/imu", "payload": {"linear_acceleration": [0.1, 0.0, 9.7], "angular_velocity": [0.0, 0.0, 0.1]}},
+  {"timestamp": 0.2, "topic": "/cmd_vel", "payload": {"linear": [0.2, 0.0, 0.0], "angular": [0.0, 0.0, 0.0]}}
+]

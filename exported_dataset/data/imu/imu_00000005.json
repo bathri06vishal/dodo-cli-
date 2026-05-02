@@ -1,0 +1,12 @@
+{
+  "linear_acceleration": [
+    0.1,
+    0.0,
+    9.7
+  ],
+  "angular_velocity": [
+    0.0,
+    0.0,
+    0.1
+  ]
+}

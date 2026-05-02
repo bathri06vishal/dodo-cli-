@@ -1,0 +1,6 @@
+{
+  "frame_id": "front_camera",
+  "width": 640,
+  "height": 480,
+  "encoding": "rgb8"
+}

@@ -1,0 +1,63 @@
+{
+  "dataset_name": "my_dataset",
+  "sensors_used": [
+    "camera_front_image",
+    "cmd_vel",
+    "imu",
+    "lidar_points"
+  ],
+  "fps": 1.0,
+  "frequency": {
+    "camera_front_image": 1.0,
+    "cmd_vel": 1.0,
+    "imu": 1.0,
+    "lidar_points": 1.0
+  },
+  "duration": 1.0,
+  "number_of_frames": 2,
+  "task": "navigation",
+  "frames": [
+    {
+      "timestamp": 0.0,
+      "camera": "data/images/camera_front_image_00000000.json",
+      "imu": {
+        "linear_acceleration": [
+          0.0,
+          0.1,
+          9.8
+        ],
+        "angular_velocity": [
+          0.01,
+          0.0,
+          0.02
+        ]
+      },
+      "lidar": "data/lidar/lidar_points_00000003.json",
+      "action": [
+        0.2,
+        0.0
+      ]
+    },
+    {
+      "timestamp": 1.0,
+      "camera": "data/images/camera_front_image_00000004.json",
+      "imu": {
+        "linear_acceleration": [
+          0.0,
+          0.0,
+          9.7
+        ],
+        "angular_velocity": [
+          0.02,
+          0.01,
+          0.01
+        ]
+      },
+      "lidar": "data/lidar/lidar_points_00000007.json",
+      "action": [
+        0.25,
+        0.05
+      ]
+    }
+  ]
+}

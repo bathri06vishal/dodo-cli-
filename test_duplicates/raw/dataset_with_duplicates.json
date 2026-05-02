@@ -1,0 +1,655 @@
+{
+  "metadata": {
+    "name": "dataset_with_duplicates",
+    "description": "Dataset with intentional duplicates for testing filter functionality",
+    "duration": 1.5,
+    "sensors": [
+      "imu",
+      "odom"
+    ],
+    "total_messages": 28
+  },
+  "messages": [
+    {
+      "timestamp": 1777234050.757499,
+      "topic": "/imu",
+      "type": "sensor_msgs/Imu",
+      "data": {
+        "linear_acceleration": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 9.8
+        },
+        "angular_velocity": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      }
+    },
+    {
+      "timestamp": 1777234050.757499,
+      "topic": "/odom",
+      "type": "nav_msgs/Odometry",
+      "data": {
+        "pose": {
+          "position": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "orientation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "twist": {
+          "linear": {
+            "x": 0.1,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "angular": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.05
+          }
+        }
+      }
+    },
+    {
+      "timestamp": 1777234050.857499,
+      "topic": "/imu",
+      "type": "sensor_msgs/Imu",
+      "data": {
+        "linear_acceleration": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 9.8
+        },
+        "angular_velocity": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.1
+        }
+      }
+    },
+    {
+      "timestamp": 1777234050.857499,
+      "topic": "/odom",
+      "type": "nav_msgs/Odometry",
+      "data": {
+        "pose": {
+          "position": {
+            "x": 0.1,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "orientation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "twist": {
+          "linear": {
+            "x": 0.1,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "angular": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.05
+          }
+        }
+      }
+    },
+    {
+      "timestamp": 1777234050.957499,
+      "topic": "/imu",
+      "type": "sensor_msgs/Imu",
+      "data": {
+        "linear_acceleration": {
+          "x": 0.2,
+          "y": 0.0,
+          "z": 9.8
+        },
+        "angular_velocity": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.2
+        }
+      }
+    },
+    {
+      "timestamp": 1777234050.957499,
+      "topic": "/odom",
+      "type": "nav_msgs/Odometry",
+      "data": {
+        "pose": {
+          "position": {
+            "x": 0.2,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "orientation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "twist": {
+          "linear": {
+            "x": 0.1,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "angular": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.05
+          }
+        }
+      }
+    },
+    {
+      "timestamp": 1777234051.057499,
+      "topic": "/imu",
+      "type": "sensor_msgs/Imu",
+      "data": {
+        "linear_acceleration": {
+          "x": 0.30000000000000004,
+          "y": 0.0,
+          "z": 9.8
+        },
+        "angular_velocity": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.30000000000000004
+        }
+      }
+    },
+    {
+      "timestamp": 1777234051.057499,
+      "topic": "/odom",
+      "type": "nav_msgs/Odometry",
+      "data": {
+        "pose": {
+          "position": {
+            "x": 0.30000000000000004,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "orientation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "twist": {
+          "linear": {
+            "x": 0.1,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "angular": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.05
+          }
+        }
+      }
+    },
+    {
+      "timestamp": 1777234051.057499,
+      "topic": "/imu",
+      "type": "sensor_msgs/Imu",
+      "data": {
+        "linear_acceleration": {
+          "x": 0.3,
+          "y": 0.0,
+          "z": 9.8
+        },
+        "angular_velocity": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.3
+        }
+      }
+    },
+    {
+      "timestamp": 1777234051.057499,
+      "topic": "/imu",
+      "type": "sensor_msgs/Imu",
+      "data": {
+        "linear_acceleration": {
+          "x": 0.3,
+          "y": 0.0,
+          "z": 9.8
+        },
+        "angular_velocity": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.3
+        }
+      }
+    },
+    {
+      "timestamp": 1777234051.157499,
+      "topic": "/imu",
+      "type": "sensor_msgs/Imu",
+      "data": {
+        "linear_acceleration": {
+          "x": 0.4,
+          "y": 0.0,
+          "z": 9.8
+        },
+        "angular_velocity": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.4
+        }
+      }
+    },
+    {
+      "timestamp": 1777234051.157499,
+      "topic": "/odom",
+      "type": "nav_msgs/Odometry",
+      "data": {
+        "pose": {
+          "position": {
+            "x": 0.4,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "orientation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "twist": {
+          "linear": {
+            "x": 0.1,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "angular": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.05
+          }
+        }
+      }
+    },
+    {
+      "timestamp": 1777234051.257499,
+      "topic": "/imu",
+      "type": "sensor_msgs/Imu",
+      "data": {
+        "linear_acceleration": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 9.8
+        },
+        "angular_velocity": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.5
+        }
+      }
+    },
+    {
+      "timestamp": 1777234051.257499,
+      "topic": "/odom",
+      "type": "nav_msgs/Odometry",
+      "data": {
+        "pose": {
+          "position": {
+            "x": 0.5,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "orientation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "twist": {
+          "linear": {
+            "x": 0.1,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "angular": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.05
+          }
+        }
+      }
+    },
+    {
+      "timestamp": 1777234051.257499,
+      "topic": "/odom",
+      "type": "nav_msgs/Odometry",
+      "data": {
+        "pose": {
+          "position": {
+            "x": 0.5,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "orientation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "twist": {
+          "linear": {
+            "x": 0.1,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "angular": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.05
+          }
+        }
+      }
+    },
+    {
+      "timestamp": 1777234051.357499,
+      "topic": "/imu",
+      "type": "sensor_msgs/Imu",
+      "data": {
+        "linear_acceleration": {
+          "x": 0.6000000000000001,
+          "y": 0.0,
+          "z": 9.8
+        },
+        "angular_velocity": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.6000000000000001
+        }
+      }
+    },
+    {
+      "timestamp": 1777234051.357499,
+      "topic": "/odom",
+      "type": "nav_msgs/Odometry",
+      "data": {
+        "pose": {
+          "position": {
+            "x": 0.6000000000000001,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "orientation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "twist": {
+          "linear": {
+            "x": 0.1,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "angular": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.05
+          }
+        }
+      }
+    },
+    {
+      "timestamp": 1777234051.457499,
+      "topic": "/imu",
+      "type": "sensor_msgs/Imu",
+      "data": {
+        "linear_acceleration": {
+          "x": 0.7000000000000001,
+          "y": 0.0,
+          "z": 9.8
+        },
+        "angular_velocity": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.7000000000000001
+        }
+      }
+    },
+    {
+      "timestamp": 1777234051.457499,
+      "topic": "/odom",
+      "type": "nav_msgs/Odometry",
+      "data": {
+        "pose": {
+          "position": {
+            "x": 0.7000000000000001,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "orientation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "twist": {
+          "linear": {
+            "x": 0.1,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "angular": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.05
+          }
+        }
+      }
+    },
+    {
+      "timestamp": 1777234051.557499,
+      "topic": "/imu",
+      "type": "sensor_msgs/Imu",
+      "data": {
+        "linear_acceleration": {
+          "x": 0.8,
+          "y": 0.0,
+          "z": 9.8
+        },
+        "angular_velocity": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.8
+        }
+      }
+    },
+    {
+      "timestamp": 1777234051.557499,
+      "topic": "/odom",
+      "type": "nav_msgs/Odometry",
+      "data": {
+        "pose": {
+          "position": {
+            "x": 0.8,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "orientation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "twist": {
+          "linear": {
+            "x": 0.1,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "angular": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.05
+          }
+        }
+      }
+    },
+    {
+      "timestamp": 1777234051.657499,
+      "topic": "/imu",
+      "type": "sensor_msgs/Imu",
+      "data": {
+        "linear_acceleration": {
+          "x": 0.9,
+          "y": 0.0,
+          "z": 9.8
+        },
+        "angular_velocity": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.9
+        }
+      }
+    },
+    {
+      "timestamp": 1777234051.657499,
+      "topic": "/odom",
+      "type": "nav_msgs/Odometry",
+      "data": {
+        "pose": {
+          "position": {
+            "x": 0.9,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "orientation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "twist": {
+          "linear": {
+            "x": 0.1,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "angular": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.05
+          }
+        }
+      }
+    },
+    {
+      "timestamp": 1777234051.757499,
+      "topic": "/imu",
+      "type": "sensor_msgs/Imu",
+      "data": {
+        "linear_acceleration": {
+          "x": 1.0,
+          "y": 0.0,
+          "z": 9.8
+        },
+        "angular_velocity": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 1.0
+        }
+      }
+    },
+    {
+      "timestamp": 1777234051.857499,
+      "topic": "/imu",
+      "type": "sensor_msgs/Imu",
+      "data": {
+        "linear_acceleration": {
+          "x": 1.1,
+          "y": 0.0,
+          "z": 9.8
+        },
+        "angular_velocity": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 1.1
+        }
+      }
+    },
+    {
+      "timestamp": 1777234051.957499,
+      "topic": "/imu",
+      "type": "sensor_msgs/Imu",
+      "data": {
+        "linear_acceleration": {
+          "x": 1.2000000000000002,
+          "y": 0.0,
+          "z": 9.8
+        },
+        "angular_velocity": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 1.2000000000000002
+        }
+      }
+    },
+    {
+      "timestamp": 1777234052.057499,
+      "topic": "/imu",
+      "type": "sensor_msgs/Imu",
+      "data": {
+        "linear_acceleration": {
+          "x": 1.3,
+          "y": 0.0,
+          "z": 9.8
+        },
+        "angular_velocity": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 1.3
+        }
+      }
+    },
+    {
+      "timestamp": 1777234052.157499,
+      "topic": "/imu",
+      "type": "sensor_msgs/Imu",
+      "data": {
+        "linear_acceleration": {
+          "x": 1.4000000000000001,
+          "y": 0.0,
+          "z": 9.8
+        },
+        "angular_velocity": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 1.4000000000000001
+        }
+      }
+    }
+  ]
+}

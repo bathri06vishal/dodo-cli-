@@ -1,0 +1,79 @@
+{
+  "dataset_name": "my_ros_dataset",
+  "sensors_used": [
+    "camera_image",
+    "cmd_vel",
+    "imu",
+    "rosout"
+  ],
+  "fps": 10.0,
+  "frequency": {
+    "camera_image": 10.0,
+    "cmd_vel": 10.0,
+    "imu": 10.0,
+    "rosout": null
+  },
+  "duration": 0.2,
+  "number_of_frames": 2,
+  "task": "navigation",
+  "frames": [
+    {
+      "timestamp": 0.1,
+      "camera": "data/images/camera_image_00000001.json",
+      "imu": {
+        "linear_acceleration": [
+          0.0,
+          0.0,
+          9.8
+        ],
+        "angular_velocity": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "lidar": null,
+      "action": {
+        "linear": [
+          0.1,
+          0.0,
+          0.0
+        ],
+        "angular": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "timestamp": 0.2,
+      "camera": "data/images/camera_image_00000004.json",
+      "imu": {
+        "linear_acceleration": [
+          0.1,
+          0.0,
+          9.7
+        ],
+        "angular_velocity": [
+          0.0,
+          0.0,
+          0.1
+        ]
+      },
+      "lidar": null,
+      "action": {
+        "linear": [
+          0.2,
+          0.0,
+          0.0
+        ],
+        "angular": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    }
+  ]
+}
