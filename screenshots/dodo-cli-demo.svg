@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#1e1e1e"/>
+  
+  <!-- Terminal Header -->
+  <rect width="800" height="30" fill="#3c3c3c"/>
+  <circle cx="15" cy="15" r="5" fill="#ff5f56"/>
+  <circle cx="35" cy="15" r="5" fill="#ffbd2e"/>
+  <circle cx="55" cy="15" r="5" fill="#27c93f"/>
+  <text x="400" y="20" font-family="monospace" font-size="12" fill="#ffffff" text-anchor="middle">dodo</text>
+  
+  <!-- DODO CLI Content -->
+  <text x="20" y="70" font-family="monospace" font-size="14" fill="#00ff00" font-weight="bold">🤖 Welcome to DODO</text>
+  
+  <!-- ASCII Art DODO -->
+  <text x="20" y="100" font-family="monospace" font-size="12" fill="#00ff00">
+    <tspan x="20" dy="0">  ██████   ██████  </tspan>
+    <tspan x="20" dy="15">  ██   ██ ██    ██ </tspan>
+    <tspan x="20" dy="15">  ██   ██ ██    ██ </tspan>
+    <tspan x="20" dy="15">  ██   ██ ██    ██ </tspan>
+    <tspan x="20" dy="15">  ██████   ██████  </tspan>
+  </text>
+  
+  <!-- Description -->
+  <text x="20" y="200" font-family="monospace" font-size="11" fill="#ffffff">
+    <tspan x="20" dy="0">🤖 Multimodal Dataset Creation</tspan>
+    <tspan x="20" dy="15">DODO transforms raw robotics logs into structured, ML-ready multimodal datasets.</tspan>
+    <tspan x="20" dy="15">Automatically aligns sensor data (camera, IMU, lidar, actions) into synchronized frames.</tspan>
+  </text>
+  
+  <!-- Quick Commands Box -->
+  <rect x="20" y="260" width="760" height="200" fill="none" stroke="#00ff00" stroke-width="2"/>
+  <text x="30" y="280" font-family="monospace" font-size="12" fill="#00ff00" font-weight="bold">╭─ Quick Commands ─────────────────────────────────────────────╮</text>
+  
+  <text x="40" y="300" font-family="monospace" font-size="11" fill="#ffffff">
+    <tspan x="40" dy="0">│ init                   Create a new DODO project          │</tspan>
+    <tspan x="40" dy="15">│ list                   List all DODO projects             │</tspan>
+    <tspan x="40" dy="15">│ delete                 Delete a DODO project               │</tspan>
+    <tspan x="40" dy="15">│ register               Create a new user account           │</tspan>
+    <tspan x="40" dy="15">│ login                  Login to DODO (required)           │</tspan>
+    <tspan x="40" dy="15">│ import                 Import robot logs (rosbag, JSON)   │</tspan>
+    <tspan x="40" dy="15">│ generate-metadata      Generate aligned frame metadata    │</tspan>
+    <tspan x="40" dy="15">│ filter                 Remove duplicate data (auth)        │</tspan>
+    <tspan x="40" dy="15">│ validate               Validate your dataset              │</tspan>
+    <tspan x="40" dy="15">│ export                 Export to structured format        │</tspan>
+    <tspan x="40" dy="15">│ logout                 Logout from current session         │</tspan>
+  </text>
+  
+  <text x="30" y="450" font-family="monospace" font-size="12" fill="#00ff00" font-weight="bold">╰───────────────────────────────────────────────────────────────────────────────────────╯</text>
+  
+  <!-- Examples Section -->
+  <text x="20" y="480" font-family="monospace" font-size="11" fill="#ffffff">
+    <tspan x="20" dy="0">╭─ Examples ──────────────────────────────────────────────────────────────────────────────╮</tspan>
+    <tspan x="20" dy="15">│ dodo register --username myuser                              │</tspan>
+    <tspan x="20" dy="15">│ dodo login --username myuser                                 │</tspan>
+    <tspan x="20" dy="15">│ dodo init my_dataset                                        │</tspan>
+    <tspan x="20" dy="15">──────────────────────────────────────────────────────────────────────────────────────────╯</tspan>
+  </text>
+  
+  <!-- Cursor -->
+  <rect x="20" y="570" width="8" height="2" fill="#00ff00">
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
+</svg>

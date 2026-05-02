@@ -68,34 +68,7 @@ dodo export ./output_dataset --project my_robot_dataset
 ### Welcome Screen
 The DODO CLI features a beautiful animated welcome screen with comprehensive command listings:
 
-```
-🤖 Welcome to DODO
-
-  ██████   ██████  
-  ██   ██ ██    ██ 
-  ██   ██ ██    ██ 
-  ██   ██ ██    ██ 
-  ██████   ██████  
-
-🤖 Multimodal Dataset Creation
-DODO transforms raw robotics logs into structured, ML-ready multimodal datasets.
-Automatically aligns sensor data (camera, IMU, lidar, actions) into synchronized frames.
-Generate comprehensive metadata for computer vision, robotics, and multimodal AI training.
-
-╭─ Quick Commands ─────────────────────────────────────────────╮
-│ init                   Create a new DODO project          │
-│ list                   List all DODO projects             │
-│ delete                 Delete a DODO project               │
-│ register               Create a new user account           │
-│ login                  Login to DODO (required)           │
-│ import                 Import robot logs (rosbag, JSON)   │
-│ generate-metadata      Generate aligned frame metadata    │
-│ filter                 Remove duplicate data (auth)        │
-│ validate               Validate your dataset              │
-│ export                 Export to structured format        │
-│ logout                 Logout from current session         │
-╰───────────────────────────────────────────────────────────────────────────────────────╯
-```
+![DODO CLI Demo](https://github.com/bathri06vishal/dodo-cli-/raw/main/screenshots/dodo-cli-demo.svg)
 
 ### Project Management
 Easily list and manage your robotics datasets:
