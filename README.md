@@ -25,8 +25,8 @@ DODO CLI is a powerful command-line tool that converts robotics sensor data (ROS
 
 ```bash
 # Clone from GitHub
-git clone https://github.com/bathri06vishal/dodo-cli.git
-cd dodo-cli
+git clone https://github.com/bathri06vishal/dodo-cli-.git
+cd dodo-cli-
 
 # Install in development mode
 pip install -e .
