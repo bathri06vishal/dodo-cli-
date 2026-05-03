@@ -75,7 +75,7 @@ Easily list and manage your robotics datasets:
 
 ```bash
 $ dodo list
-Found 5 DODO project(s):
+Found 2 DODO project(s):
 
 📁 test_robot_dataset
    Path: /home/user/test_dodo/test_robot_dataset
