@@ -4,9 +4,7 @@
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![PyPI version](https://badge.fury.io/py/dodo-robotics.svg)](https://badge.fury.io/py/dodo-robotics)
 
-                  <img width="336" height="128" alt="dodooo-ezgif com-video-to-gif-converter" src="https://github.com/user-attachments/assets/4375807f-4b22-4091-86c9-dc0a7a7c8957" />
-
-
+<img width="336" height="128" alt="dodooo-ezgif com-video-to-gif-converter" src="https://github.com/user-attachments/assets/781ccc4b-ce17-433b-aaa7-d4e547888be5" />
 > **Transform raw robotics logs into structured, ML-ready multimodal datasets**
 
 DODO CLI is a powerful command-line tool that converts robotics sensor data (ROS bags, JSON logs) into synchronized, machine learning-ready datasets. Perfect for computer vision, robotics, and multimodal AI applications.
