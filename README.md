@@ -63,7 +63,7 @@ dodo generate-metadata --project my_robot_dataset
 dodo export ./output_dataset --project my_robot_dataset
 ```
 
-## �️ CLI in Action
+## CLI in Action
 
 ### Welcome Screen
 The DODO CLI features a beautiful animated welcome screen with comprehensive command listings:
@@ -102,7 +102,7 @@ All commands are accessible from the welcome screen:
 - `export` - Export dataset
 - `logout` - Logout from session
 
-## �� Documentation
+## Documentation
 
 ### Project Structure
 
